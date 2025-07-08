@@ -1,80 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document class</title>
-    <style>
-        .city{
-            background-color: lightcoral;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-        }
-        .note{
-            background-color: lightblue;
-            border: 2px solid black;
-            margin: 20px;
-            padding: 20px;
-        }
-        .hightlight{
-            background-color: blue;
-            border:12px solid black;
-            padding: 10px;
-        }
-        .box{
-            background-color: wheat;
-        }
-        .read{
-            border-radius: 20px;
-            border: 1px solid black;
-            display: none;
-        }
-        #myheader{
-            background-color: blue;
-            border:12px solid black;
-            padding: 10px;
-            margin-top: 20px;
-        
-        }
-        
-    </style>
+  <title>Semantic HTML Example</title>
 </head>
 <body>
-    <div class="city">
-        <h2>London</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A reiciendis eligendi fugiat accusantium at, facere ipsa laborum accusamus ea omnis corporis magni doloribus odio nulla porro inventore, perferendis consectetur sit?</p>
-    </div>
-    <div class="city">
-  <h2>Paris</h2>
-  <p>Paris is the capital of France.</p>
-</div>
-<div class="city">
-  <h2>Tokyo</h2>
-  <p>Tokyo is the capital of Japan.</p>
-  
-</div>
-<div class="city">
-  <h2>Tokyo</h2>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-<div class="note">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-</div>
-<div class="hightlight">
-    <p>Tokyo is the capital of Japan.</p>
-    <p>Tokyo is the capital of Japan.</p>
-</div>
-<div class="box read">
-    <p>this is a box and red background color </p>
-</div>
-<div id="myheader">
-    <p>this is a box and whote implement id and blue color </p>
-</div>
-<div>
-    <p id="text" class="read">this is a box and whote implement id and blue color </p>
-    <button onclick="document.getElementById('text').classList.remove('read')">click me</button>
-</div>
+
+  <header>
+    <h1>My Website</h1>
+    <nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+   </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>This is a semantic HTML page example.</p>
+    </section>
+
+    <article>
+      <h2>Blog Post Title</h2>
+      <p>This is an independent blog post article.</p>
+    </article>
+  </main>
+
+  <aside>
+    <h3>Related Links</h3>
+    <ul>
+      <li><a href="#">Resource 1</a></li>
+      <li><a href="#">Resource 2</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
